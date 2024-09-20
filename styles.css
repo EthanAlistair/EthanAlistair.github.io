@@ -1,0 +1,307 @@
+/*
+Font properties checklist
+color: #ffffff; white;
+font-family: 
+font-size
+font-weight
+*/
+
+/*Reset CSS Start*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*----------Reset CSS End----------*/
+
+body{
+    background-color: #1d2230;
+    background-image: radial-gradient(60rem at top, hsla(0, 0%, 100%, 0.07), transparent), url(cloudybg.webp), linear-gradient(to bottom right, #31394e, #1d212d, #101321, #101321, #191e33);
+    background-repeat: no-repeat;
+    background-size: cover, cover, cover;
+    
+    margin: 0px;
+
+    color: #ffffff;
+
+}
+header{
+    color: #ffffff;
+    padding: 1%;
+    margin: 0 auto;
+}
+
+
+/*----------Content Style----------*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Slabo+27px&display=swap');
+/**
+font-family: 
+**/
+
+h1{
+    text-align: center; 
+    margin: 2% 0;
+    font-size: 250%;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+h2{
+    text-align: center;
+    margin: 2% 0;
+    font-size: 180%;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+h3{
+    text-align: center;
+    margin: 2% 0;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+h4{
+    text-align: center;
+    margin: 2% 0;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+p{
+    margin: 3% 0;
+    font-family: "Montserrat", system-ui;
+}
+
+
+
+/*----------Add a color seperation for the top and bottom of the page----------*/
+#headbg{
+    background: #101219;
+    margin: 0 auto;
+}
+
+.footwrapper{
+    background: #101219;
+    margin: 0 auto;
+}
+
+/*----------Column Layout Classes and IDs----------*/
+
+/*wrapper for the whole page*/
+#wrapperpage{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Page 1 Columns*/
+#column1{
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+#column2{
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+#column3{
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+
+/*second row of columns*/
+#column4{
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+#column5{
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+#column6{
+    width: 27%;
+    float: left;
+    padding: 3%;
+}
+
+/*Double column*/
+
+#dcolumn1{
+    Width: 42%;
+    float: left;
+    padding: 3%;
+}
+#dcolumn2{
+    Width: 42%;
+    float: left;
+    padding: 3%;
+}
+
+/*----------Class to make the navigation into a horizontal bar----------*/
+/*Couldn't figure out how to center the links with the tutorial*/
+/*Centered it after simplifying the code*/
+.navbar ul{
+    text-align: center;
+    background: #1d2230;
+}
+
+.navbar a{
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    background: linear-gradient(90deg,#51b2d1,#3790f5);
+}
+
+
+.navlink {
+    display: inline-block;
+    margin: 0% auto;
+}
+li.navlink a:link{
+    color: white;
+    text-decoration: none;
+}
+li.navlink a:visited{
+    color: grey;
+}
+
+li.navlink a:active{
+    color: blue
+}
+
+figcaption.captionlink a:link{
+    color: white;
+}
+figcaption.captionlink a:visited{
+    color: grey;
+}
+
+/*----------Footer CSS----------*/
+/*couldn't figure out how to make footer stick to the bottom of the page*/
+footer{
+    color: rgb(172, 172, 172);
+    padding: 1%;
+    margin: 0% auto;
+    clear: left;
+}
+
+.navfooter ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 1%;
+    margin: 0% auto;
+    
+}
+.navfooter a{
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+}
+
+li.footlink a:hover{
+    color: grey;
+}
+
+li.footlink a:active{
+    color: blue;
+}
+
+li.footlink a:visited{
+    color: rgb(56, 56, 56);
+}
+
+/*Figure CSS*/
+
+.smallimg{
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+.medimg{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.portrait{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+figcaption{
+    text-align: center;
+}
+
+/*Table CSS*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+}
+th, td {
+	padding: 5px;
+}
+thead {
+	th {
+		background-color: #03081f;
+	}
+}
+tbody {
+	tr {
+		&:hover {
+			background: linear-gradient(90deg,#51b2d1,#3790f5);
+		}
+	}
+}
