@@ -2,4 +2,4 @@
 
 Welcome to my GitHub website! You can check it out here:
 
-🔗 [Visit the Website](https://EthanAlistair.github.io/)
+🔗 [Visit the Website](https://ethanalistair.github.io/)
